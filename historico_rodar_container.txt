@@ -1,0 +1,9 @@
+    1  git clone https://github.com/josemardevops/devops_ac4.git
+    2  cd devops_ac4/
+    3  vim fibonacci.py 
+    4  docker image build -t fibonacci .
+    5  docker run -p 5001:5000 -d fibonacci
+    6  docker ps
+    7  docker logs 47b7c5bb228b
+    8  history
+    9  history >> historico_rodar_container.txt
