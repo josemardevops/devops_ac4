@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 
 def sequencia_fibonacci():
-    c = 100
+    c = 50
     s = 2
     number_1 = 0
     number_2 = 1
